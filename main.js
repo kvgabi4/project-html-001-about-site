@@ -2,13 +2,6 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-/*  var name = "Amy";
-  alert(name);
-
-  let x = "név";
-  alert(x);
-  alert(x);*/
-
 function sendFunction() {
 
     let myName = document.myForm.name.value;
@@ -38,38 +31,3 @@ function sendFunction() {
 }
 
 
-/*
-
-  function sendFunction() {
-
-    let x = document.querySelector("form#myForm input[name=name]");
-    alert(x);
-    let y = toString(x.value);
-
-
-}
-*/
-/*alert(x);*/
-/*  if( name.value == "" || name.lenght < 5 ) {
-       alert( "Kérlek, hogy add meg a pontos neved (legalább 5 karakter hosszan)!" );
-       document.myForm.name.focus() ;
-       return false;
-   }
-       return( true );
-       console.log(name);
-}
-   /*
-   var x = document.forms["myForm"]["name"].value;
- if (x == "") {
-   alert("Name must be filled out");
-   return false;
- }
-}*/
-
-/*kinyerni az adatot egy beviteli mezőből:*/
-/*document.querySelector("input[name='amount-input']")
-/*megkérdezem, hogy mi van benne:*/
-/*let amount-input
-document.querySelector("input[name='amount-input']") /*ha kívül van idézőjel, akkor belül csak ' lehet*/
-/*mennyi az értéke?:*/
-/*amountInput.value*/
