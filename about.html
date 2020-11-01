@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Guy - About</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="navigation">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/works.html">Works</a></li>
+            <li><a href="/gallery.html">Gallery</a></li>
+            <li><a class="active" href="/about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="responsive3">
+            <div class="gallery3">
+                <img src="computer_guy3_f.jpg" alt="Computer Guy">
+            </div>
+        </div>
+        <p style="margin-left: 35%">Rólam</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>
+                Ki is vagyok valójában?
+            </h2>
+            <p class="leiras1">
+                Comuter Guy vagyok, egy remek fickó, akinek a legjobb haverja a számítógépe. Szinte mindent együtt
+                csinálunk.
+                Nem tudnék a gépem nélkül létezni. A legnagyobb sikereimet a gépemnek köszönhetem. De senki ne
+                gondolja, hogy ez a kapcsolat mindig felhőtlen és vidám.
+                Leginkább weboldalfejlesztéssel foglalkozom. <br><br>
+                Sok cégnek készítettem már honlapot, webáruházat. Mindenki elégedett
+                volt eddig a munkámmal. Ez az én világom!
+            </p>
+        </section>
+
+        <div class="responsive2">
+            <div class="gallery2">
+                <h3>Néhány jellemző rólam:</h3>
+                <ol>
+                    <li>
+                        <h4>Eddigi munkáim:</h4>
+                        <ul>
+                            <li>pizzafutár</li>
+                            <li>weblapfejlesztő (full stack)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Erősségeim:</h4>
+                        <ul>
+                            <li>okos vagyok</li>
+                            <li>kitartó vagyok</li>
+                            <li>fáradhatatlan vagyok</li>
+                            <li>szeretem a kihívásokat</li>
+                            <li>precíz vagyok</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Hobbijaim:</h4>
+                        <ul>
+                            <li>weblapkészítés</li>
+                            <li>kerékpározás</li>
+                            <li>főzés</li>
+                            <li>népzene hallgatás</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Az alábbi nyelveket beszélem:</h4>
+                        <ul>
+                            <li>anyanyelvem a magyar</li>
+                            <li>angol - közép szint</li>
+                            <li>német - közép szint</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+
+
+        <div class="responsive1">
+            <div class="gallery1">
+                <img src="computer_guy1.jpg" alt="Computer Guy" width="500">
+
+            </div>
+        </div>
+        <div class="responsive1">
+            <div class="gallery1">
+                <img src="computer_guy2.jpg" alt="Computer Guy" width="500">
+            </div>
+        </div>
+
+
+        <svg width=100% height="50">
+            <rect width=100% height="50" style="fill:rgb(255, 255, 255, 0.3)" />
+            Sorry, your browser does not support inline SVG.
+        </svg>
+
+
+        <form id="myForm" name="myForm" class="leiras1">
+            <h3>Kérlek, hogy tölts ki az alábbi űrlapot!:</h3>
+            <label for="name">Név:</label><br>
+            <input type="name" id="name" name="name" style="width:200px"><span style="color:gray; font-size: 10pt">&nbsp&nbsp&nbspMinimum 5 karakter</span>
+            <br><br>
+            <label for="email">E-mail:</label><br>
+            <input type="text" id="email" name="email" style="width:200px">
+            <br><br>
+            <label for="comment">Megjegyzés:</label><br>
+            <textarea name="comment" id="comment" style="width:200px" rows="10"></textarea><span style="color:gray; font-size: 10pt">&nbsp&nbsp&nbspMinimum 20 karakter</span><br>
+            <button onclick="sendFunction()" title="Küldés" type="submit">Küldés</button>
+        </form>
+
+        <!--
+    <form ng-app="myApp" ng-controller="validateCtrl" 
+    name="myForm" novalidate>
+    
+    <p>Username:<br>
+    <input type="text" name="user" ng-model="user" required>
+    <span style="color:red" ng-show="myForm.user.$dirty && myForm.user.$invalid">
+    <span ng-show="myForm.user.$error.required">Username is required.</span>
+    </span>
+    </p>
+    
+    <p>Email:<br>
+    <input type="email" name="email" ng-model="email" required>
+    <span style="color:red" ng-show="myForm.email.$dirty && myForm.email.$invalid">
+    <span ng-show="myForm.email.$error.required">Email is required.</span>
+    <span ng-show="myForm.email.$error.email">Invalid email address.</span>
+    </span>
+    </p>
+    
+    <p>
+    <input type="submit"
+    ng-disabled="myForm.user.$dirty && myForm.user.$invalid ||  
+    myForm.email.$dirty && myForm.email.$invalid">
+    </p>
+    
+    </form>
+    -->
+    </main>
+
+    <footer>
+        <div>
+            <button onclick="topFunction()" title="Ugrás az oldal tetejére">Ugrás az oldal tetejére</button>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
