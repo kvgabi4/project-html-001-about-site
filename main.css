@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 html {
     font-family: Roboto, "Raleway", Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -5,7 +8,7 @@ html {
     line-height: 1.65; }
 
 main {
-    margin: 30px;
+    margin: 0px;
     padding: 30px;
     background-color: #f3e6c3;
     color: #444444;
@@ -53,7 +56,7 @@ ul.navigation li.right {float:right;}
 header p{
     position: static;
     text-align: left;
-    margin: 32px; 
+    margin: 0px; 
     padding: 6px;
     font-size: 5vw;
     text-transform: uppercase;
@@ -69,10 +72,7 @@ h2, h3 {
     text-transform: uppercase;
 }
 
-table {
-    width: 100%;
-    padding: 50px;
-}
+
 section {
     text-align: center;
     margin-top: 64px; 
@@ -103,13 +103,6 @@ footer {
     text-align: center;
 }
 
-.align {
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .qualities {
     display: inline-block;
     margin-left: auto;
@@ -117,7 +110,6 @@ footer {
 }
 
 .box {
-    
     display: inline-flexbox;
     margin-left: auto;
     margin-right: auto;
@@ -126,8 +118,6 @@ footer {
 .image {
     margin: 64px;
     display: inline;
-    
- 
 }
 
 .leiras {
@@ -164,17 +154,18 @@ div.gallery {
     border: 1px solid #ccc;
 }
 
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
 div.gallery img {
     width: 100%;
     height: auto;
     box-shadow: 5px 6px 10px 0 rgba(0, 0, 0, 0.3);
-  }
-  
-    
+}
+
+/*
+div.gallery img:hover {
+    border: 1px solid #777;
+}
+*/
+
   * {
     box-sizing: border-box;
   }
@@ -185,14 +176,14 @@ div.gallery img {
     width: 33.3%;
   }
   
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 768px) {
     .responsive {
       width: 49.99999%;
       margin: 6px 0;
     }
   }
   
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 576px) {
     .responsive {
       width: 100%;
     }
@@ -220,14 +211,14 @@ div.gallery img {
     text-align: left;
   }
   
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 768px) {
     .responsive1 {
       width: 49.99999%;
       margin: 6px 0;
     }
   }
   
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 576px) {
     .responsive1 {
       width: 100%;
     }
@@ -256,14 +247,14 @@ div.gallery img {
     align-items: center;
   }
   
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 768px) {
     .responsive2 {
       width: 49.99999%;
       margin: 6px 0;
     }
   }
   
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 576px) {
     .responsive2 {
       width: 100%;
     }
@@ -290,14 +281,14 @@ div.gallery img {
     width: 30%;
   }
   
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 768px) {
     .responsive3 {
       width: 35%;
       margin: 0;
     }
   }
   
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 576px) {
     .responsive3 {
       width: 100%;
     }
